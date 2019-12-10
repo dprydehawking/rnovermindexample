@@ -37,6 +37,8 @@ const Container = () => {
         }}
       />
       {state.loading && <Text>Loading...</Text>}
+      <Text>You should turn on Debug mode, and press either button to see the behavior</Text>
+      <Text>You can go to ./store/HttpUserRepo.ts folder to see reproduce code</Text>
     </SafeAreaView>
   );
 };
